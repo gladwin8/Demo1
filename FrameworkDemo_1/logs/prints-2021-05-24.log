@@ -1,0 +1,8 @@
+00:30:02.869 [main] INFO  resources.base - NonPrime user
+00:30:16.940 [main] INFO  resources.base - Driver Initialized
+00:30:17.186 [main] INFO  resources.base - Categories label validated
+22:50:18.385 [TestNG] INFO  resources.base - Driver Initialised
+22:50:19.425 [TestNG] INFO  resources.base - Driver Initialized
+22:50:19.561 [TestNG] INFO  resources.base - Categories label validated
+22:50:23.931 [TestNG] INFO  resources.base - Prime user
+22:50:39.100 [TestNG] INFO  resources.base - Driver Initialised

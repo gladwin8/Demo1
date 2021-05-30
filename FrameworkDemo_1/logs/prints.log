@@ -1,0 +1,7 @@
+23:39:50.130 [TestNG] INFO  resources.base - Driver Initialised
+23:39:56.208 [TestNG] INFO  resources.base - NonPrime user
+23:55:57.764 [TestNG] INFO  resources.base - Driver Initialised
+23:56:00.251 [TestNG] INFO  resources.base - Driver Initialized
+23:56:02.615 [TestNG] INFO  resources.base - Prime user
+23:56:14.289 [TestNG] INFO  resources.base - Driver Initialised
+23:56:20.082 [TestNG] INFO  resources.base - NonPrime user

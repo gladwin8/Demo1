@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DemoFramework" parallel="tests">
+<listeners>
+<listener class-name="E2E.Listeners"/>
+</listeners>
+
+  <test name="Login Validation">
+    <classes>
+      <class name="E2E.Homepage"/>
+     </classes>
+     </test>
+     <test name="Labels Validation">
+     <classes> 
+      <class name="E2E.ValidateLabels"/>
+    </classes>
+  </test> 
+</suite> 

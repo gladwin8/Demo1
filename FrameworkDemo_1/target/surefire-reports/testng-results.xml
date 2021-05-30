@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DemoFramework" duration-ms="44818" started-at="2021-05-24T00:29:32 IST" finished-at="2021-05-24T00:30:17 IST">
+    <groups>
+    </groups>
+    <test name="Login Validation" duration-ms="32450" started-at="2021-05-24T00:29:32 IST" finished-at="2021-05-24T00:30:05 IST">
+      <class name="E2E.Homepage">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:E2E.Homepage@1ff4931d]" name="Open_Browser" is-config="true" duration-ms="8675" started-at="2021-05-24T00:29:32 IST" finished-at="2021-05-24T00:29:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="homepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2E.Homepage@1ff4931d]" name="homepageNavigation" duration-ms="5008" started-at="2021-05-24T00:29:41 IST" data-provider="getData" finished-at="2021-05-24T00:29:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[primeuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Prime user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="PASS" signature="Browser_close()[pri:0, instance:E2E.Homepage@1ff4931d]" name="Browser_close" is-config="true" duration-ms="2069" started-at="2021-05-24T00:29:46 IST" finished-at="2021-05-24T00:29:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_close -->
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:E2E.Homepage@1ff4931d]" name="Open_Browser" is-config="true" duration-ms="8937" started-at="2021-05-24T00:29:48 IST" finished-at="2021-05-24T00:29:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="homepageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:E2E.Homepage@1ff4931d]" name="homepageNavigation" duration-ms="5659" started-at="2021-05-24T00:29:57 IST" data-provider="getData" finished-at="2021-05-24T00:30:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nonprimeuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[NonPrime user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homepageNavigation -->
+        <test-method status="PASS" signature="Browser_close()[pri:0, instance:E2E.Homepage@1ff4931d]" name="Browser_close" is-config="true" duration-ms="2062" started-at="2021-05-24T00:30:03 IST" finished-at="2021-05-24T00:30:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_close -->
+      </class> <!-- E2E.Homepage -->
+    </test> <!-- Login Validation -->
+    <test name="Labels Validation" duration-ms="12348" started-at="2021-05-24T00:30:05 IST" finished-at="2021-05-24T00:30:17 IST">
+      <class name="E2E.ValidateLabels">
+        <test-method status="PASS" signature="Open_Browser()[pri:0, instance:E2E.ValidateLabels@4009e306]" name="Open_Browser" is-config="true" duration-ms="11843" started-at="2021-05-24T00:30:05 IST" finished-at="2021-05-24T00:30:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Open_Browser -->
+        <test-method status="PASS" signature="Labelsvalidation()[pri:0, instance:E2E.ValidateLabels@4009e306]" name="Labelsvalidation" duration-ms="245" started-at="2021-05-24T00:30:16 IST" finished-at="2021-05-24T00:30:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Labelsvalidation -->
+        <test-method status="PASS" signature="Browser_close()[pri:0, instance:E2E.ValidateLabels@4009e306]" name="Browser_close" is-config="true" duration-ms="258" started-at="2021-05-24T00:30:17 IST" finished-at="2021-05-24T00:30:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser_close -->
+      </class> <!-- E2E.ValidateLabels -->
+    </test> <!-- Labels Validation -->
+  </suite> <!-- DemoFramework -->
+</testng-results>

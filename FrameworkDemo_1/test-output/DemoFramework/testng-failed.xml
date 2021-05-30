@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoFramework]" parallel="tests">
+  <listeners>
+    <listener class-name="E2E.Listeners"/>
+  </listeners>
+  <test name="Labels Validation(failed)" parallel="tests">
+    <classes>
+      <class name="E2E.Homepage">
+        <methods>
+          <include name="Open_Browser"/>
+          <include name="Browser_close"/>
+        </methods>
+      </class> <!-- E2E.Homepage -->
+      <class name="E2E.ValidateLabels">
+        <methods>
+          <include name="Browser_close"/>
+          <include name="Open_Browser"/>
+          <include name="Labelsvalidation"/>
+        </methods>
+      </class> <!-- E2E.ValidateLabels -->
+    </classes>
+  </test> <!-- Labels Validation(failed) -->
+</suite> <!-- Failed suite [DemoFramework] -->
